@@ -1,4 +1,17 @@
 # Velocity-Lobby
-This plugin was originally made on 2020/05/19 but I had a lot of other private projects I was working on, I've recently just discovered it again as making a minecraft server for a few of my friends and wanted a fallback server. I figured why not update to the latest API and upload it. 
-# Please note that in the config the "lobby-name:" is the name of your proxy servers lobby.
-# Commands are currently: /hub, /lobby, /logout however you can change that in the source code as long as you follow the lisencing. 
+This plugin was originally made on 2020/05/19 but I had a lot of other private projects I was working on, I've recently just discovered it again as making a minecraft server for a few of my friends and wanted a fallback server. I figured why not update to the latest API and upload it. I hope everyone enjoys it and I will be releasing some projects that I've been working on for a while in the future. I may work with velocity api in the future if plugins are requested enough.
+
+# Configuration
+
+The config is pretty basic as it was my first time working with their api, it's a simple one liner that you need to input your fallback servers name. It is set by default as lobby.
+
+# Commands
+The current commands are listened below and they all direct you to the specificed lobby defined in your config.toml.
+
+/hub
+/lobby
+/logout
+
+# TO-DO:
+I'm not sure there's anything I need to do to this plugin apart from possibly add language support in the configuration for users that may not understand english. I will look at doing this in the future. If you would like to change the message that is sent when user please refer to line 44 in the LobbyCommand.java and change the message there. And possibly add comments to the project, however, I believe it's self explanatory anyway.
+
