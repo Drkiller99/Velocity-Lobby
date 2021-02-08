@@ -1,0 +1,1 @@
+{"id":"lobby_command","name":"Lobby","version":"1.0","description":"This command will send players on the network to the default lobby.","url":"verenitymc.net","authors":["Drkiller99"],"dependencies":[],"main":"me.drkiller99.main.main"}
