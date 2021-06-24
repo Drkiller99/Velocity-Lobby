@@ -9,6 +9,11 @@ The config is pretty basic as it was my first time working with their API, it's 
 The current commands are listed below and they all direct you to the specified lobby defined in your config.toml.
 /hub | /lobby | /logout 
 
+If you'd like to remove or change a command due to conflict with it overriding other commands in servers please refer to the main class, line 54.
+```java
+cmd.register(new LobbyCommand(s), "hub", "lobby", "logout");
+```
+
 You can also use the command /server <name> by default now without downloading this plugin.
 
 # TO-DO:
