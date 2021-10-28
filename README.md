@@ -17,11 +17,7 @@ cmd.register(new LobbyCommand(s), "hub", "lobby", "logout");
 
 You can also use the command /server <name> by default now without downloading this plugin.
 
-# TO-DO:
-I'm not sure there's anything I need to do to this plugin apart from possibly add language support in the configuration for users that may not understand English. I will look at doing this in the future. If you would like to change the message that is sent when the user, please refer to line 44 in the LobbyCommand.java and change the message there. And possibly add comments to the project, however, I believe it's self-explanatory anyway.
-  
-  ```txt
-  THIS WILL BE UPDATED AND DEFINED PROPERLY EVENTUALLY.
-  ```
+# Summary
+> This won't be updated anymore not will anything else be defined as I'm currently involved with to many projects, It could possibly be updated a year down the line, however, I'm doubtful. 
   
 
