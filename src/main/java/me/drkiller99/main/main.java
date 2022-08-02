@@ -30,12 +30,12 @@ import java.io.File;
 
 @Plugin
         (
-        id = "lobby_command",
-        name = "Lobby",
-        version = "1.0",
-        description = "This command will send players on the network to the default lobby.",
-        authors = "Drkiller99",
-        url = "verenitymc.net"
+          id = "lobby_command",
+          name = "Lobby",
+          version = "1.0",
+          description = "This command will send players on the network to the default lobby.",
+          authors = "Drkiller99",
+          url = "verenitymc.net"
         )
 
 public class main {
